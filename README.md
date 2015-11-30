@@ -5,13 +5,13 @@ For example when you push view controller and want to load some data from server
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/Preview.gif" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/1.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/2.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/3.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/4.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/5.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/6.png" width="230"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/Preview.gif" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/1.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/2.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/3.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/4.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/5.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/6.png" width="218"/>
 
 ## Installation
 
@@ -21,13 +21,21 @@ For example when you push view controller and want to load some data from server
 
 ### With CocoaPods
 
-[CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. See the "Get Started" section for more details.
+CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. To install with cocoaPods, follow the "Get Started" section on [CocoaPods](https://cocoapods.org/).
 
 #### Podfile
-
-```
+```ruby
 platform :ios, '6.0'
 pod 'LGPlaceholderView', '~> 1.0.0'
+```
+
+### With Carthage
+
+Carthage is a lightweight dependency manager for Swift and Objective-C. It leverages CocoaTouch modules and is less invasive than CocoaPods. To install with carthage, follow the instruction on [Carthage](https://github.com/Carthage/Carthage/).
+
+#### Cartfile
+```
+github "Friend-LGA/LGPlaceholderView" ~> 1.0.0
 ```
 
 ## Usage
